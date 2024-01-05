@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- heaader starts -->
+    <div class="header">
+        <div class="header-logo">
+            <div class="logo"><i class="material-symbols-outlined menu-icon"> menu</i></div>
+            <img class="utube" src="./images/logo.png" alt="">
+        </div>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="search..">
+                <button><i class="material-symbols-outlined"> search </i></button>
+            </form>
+        </div>
+        <div class="header-icons">
+            <a href="#"><i class="material-symbols-outlined">videocam</i></a>
+            <a href="#"> <i class="material-symbols-outlined ">notifications</i></a>
+            <a href="#"> <i class="material-symbols-outlined "> account_circle</i></a>
+
+        </div>
+    </div>
+    <!-- header ends -->
+
+    <!-- <div class="small-sidebar">
+        <div class="short-links">
+            <div class="side"><a href="#"><i class="material-symbols-outlined">home</i></a><a href="#">
+                    <p>Home</p>
+                </a></div>
+            <div class="side"><a href="#"><img src="./images/youtube-shorts.png" alt=""></a><a href="#">
+                    <p>Shorts</p>
+                </a></div>
+            <div class="side"><a href="#"><i class="material-symbols-outlined">subscriptions</i></a><a href="#">
+                    <p>Subscriptions</p>
+                </a></div>
+            <div class="side"><a href="#"><img src="./images/youtube-videos-7639.png" alt=""></a><a href="#">
+                    <p>You</p>
+                </a></div>
+            <div class="side"><a href="#"><i class="material-symbols-outlined">download_2</i></a><a href="#">
+                    <p>Downloads</p>
+                </a></div>
+        </div>
+    </div> -->
+    <!-- main-body starts -->
+
+    <div class="main-body">
+
+        <!-- sidebar starts -->
+
+        <div class="sidebar">
+
+            <div class="sidebar-cat">
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">home</i>
+                    <span>Home</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        local_fire_department
+                    </i>
+                    <span>Trending</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        subscriptions
+                    </i>
+                    <span>Subscriptions</span>
+                </div>
+            </div>
+            <hr>
+            <div class="sidebar-cat">
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        library_add_check
+                    </i>
+                    <span>Library</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        history
+                    </i>
+                    <span>History</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        play_arrow
+                    </i>
+                    <span>Your Videos</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        watch_later
+                    </i>
+                    <span>Watch Later</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        thumb_up
+                    </i>
+                    <span>Liked Videos</span>
+                </div>
+            </div>
+            <hr>
+            <div class="sidebar-cat">
+                <p>Explore</p>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        shopping_bag
+                    </i>
+                    <span>Shopping</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        history
+                    </i>
+                    <span>History</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        music_note
+                    </i>
+                    <span>Music</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        movie
+                    </i>
+                    <span>Movie</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        stadia_controller
+                    </i>
+                    <span>Gaming</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        podcasts
+                    </i>
+                    <span>Podcasts</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        school
+                    </i>
+                    <span>Learning</span>
+                </div>
+            </div>
+            <hr>
+            <div class="sidebar-cat">
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">settings</i>
+                    <span>Settings</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        flag
+                    </i>
+                    <span>Report History</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        help
+                    </i>
+                    <span>Help</span>
+                </div>
+                <div class="sidebar-items">
+                    <i class="material-symbols-outlined">
+                        chat
+                    </i>
+                    <span>Send Feedback</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- side bar ends -->
+
+        <div class="videos">
+            <h1>Recommended</h1>
+
+            <div class="video-container">
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb1.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/sony.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Mudhal Nee Mudivum Nee - Title Track Video | Darbuka Siva | Sid Sriram | Thamarai</h3>
+                            <a href="">SonyMusic</a>
+                            <p>10M.3 Months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb2.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/think.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>96 Songs | The Life of Ram Song Lyrical | Vijay Sethupathi, Trisha | Govind Vasantha | C. Prem Kumar</h3>
+                            <a href="">Think Music</a>
+                            <p>20M.1 Year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb3.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/niss.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Evolution | Explained in Malayalam</h3>
+                            <a href="">NIssaraam</a>
+                            <p>367k.2 Months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb4.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/sony.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>CS50x 2024 - Artificial Intelligence</h3>
+                            <a href="">CS50X</a>
+                            <p>22k.4 daysago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+            </div>
+            <div class="video-container">
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb5.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/ver.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>The Most Misunderstood Concept in Physics</h3>
+                            <a href="">veritasium</a>
+                            <p>10M.2 Years ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb6.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/alli.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3> My Solo Trip to Antarctica</h3>
+                            <a href="">Allison Anderson</a>
+                            <p>20M.1 Year ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb7.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/netflix.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Our Planet | Frozen Worlds | FULL EPISODE | Netflix</h3>
+                            <a href="">Netflix</a>
+                            <p>10M.3 Months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb8.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/netflix.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Rebel Moon - Part Two: The Scargiver | Official Teaser | Netflix</h3>
+                            <a href="">Netflix</a>
+                            <p>10M.3 Months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+            </div>
+            <div class="video-container">
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb9.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/kevin.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Why I use grid over flexbox for this common layout</h3>
+                            <a href="">Kevin Powell</a>
+                            <p>10M.3 Months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb10.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/kevin.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>HTML and CSS for Beginners Part 1: Introduction to HTML</h3>
+                            <a href="">Kevin Powell</a>
+                            <p>10M.3 Months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb11.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/kevin.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Learn flexbox the easy way</h3>
+                            <a href="">Kevin Powell</a>
+                            <p>10M.3 Months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+                <!-- single video -->
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="./images/thumb12.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="./images/kevin.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>Get started with grid WITHOUT being overwhelmed</h3>
+                            <a href="">Kevin Powell</a>
+                            <p>10M.3 Months ago</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- single video ends -->
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
